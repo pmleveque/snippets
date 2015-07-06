@@ -4,3 +4,22 @@
 ý
 ℟
 ℣
+⇉
+☡
+⇝
+➙
+✝
+☩
+☧
+
+## brackets
+‹test›
+‘test’
+{test}
+⟨test⟩
+⟪test⟫
+⟦test⟧
+‷test‴
+⸂test⸃
+⸉test⸊
+⸍test⸌
