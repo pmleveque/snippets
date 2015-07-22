@@ -161,3 +161,23 @@ Reload apache to kick in
 
     sudo apachectl restart
 
+
+## file encoding
+```sh
+file -I <FILE>
+iconv -f iso-8859-1 -t utf-8 < file > file.new
+iconv -f iutf-16le -t utf-8 < file > file.new
+```
+
+```sh
+for file in *.txt; do
+  iconv -f ascii -t utf-8 "$file" -o "${file%.txt}.utf8.txt"
+done
+```
+
+## psql
+
+psql -d dbname -t -A -F"," -c "select * from users" > output.csv
+
+## combine various files into one
+cat part-* > output.txt
